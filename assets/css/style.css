@@ -37,6 +37,10 @@
     max-width: 527px;
 }
 
+.w_519 {
+    max-width: 519px;
+}
+
 .w_725 {
     max-width: 725px;
 }
@@ -299,6 +303,21 @@
     right: 0;
 }
 
+.line_hover::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    transition: all 400ms linear;
+    background: white;
+    bottom: -2px;
+    left: 0;
+}
+
+.line_hover:hover::after {
+    width: 100%;
+}
+
 .globe-left {
     left: 0;
     bottom: -50%;
@@ -398,7 +417,8 @@
     .pb-50 {
         padding-bottom: 50px;
     }
-    .pb-70{
+
+    .pb-70 {
         padding-bottom: 70px;
     }
 }
