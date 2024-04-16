@@ -1,0 +1,165 @@
+:root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 24px;
+    --fs-xl: 40px;
+    --fs-2xl: 58px;
+
+
+    --lh-21: 21px;
+    --lh-24: 24px;
+    --lh-26: 26px;
+    --lh-33: 33px;
+    --lh-52: 45px;
+    --lh-57: 48px;
+    --lh-61: 61px;
+
+    --black: #111111;
+    --white: #FFF;
+    --nav-bg: #12121299;
+    --nav-p: #D0D0D0;
+    --btn-bg: #BAFF00;
+    --bg-col: #0C0C0C;
+    --sec3-para: #CFD1D0;
+    --card-p: #D2D3D3;
+    --whie2: #F2F8FC;
+    --gradient: linear-gradient(180deg, rgba(46, 57, 39, 0.15) 0%, rgba(40, 40, 40, 0) 103.89%);
+    --ftr-p: #E7E8E7;
+    --line: #6E706D;
+    --last-word: #CFD0CF;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+}
+
+.col_black{
+    color: var(--black);
+}
+
+.last_wrd {
+    color: var(--last-word);
+}
+
+.ftr_para {
+    color: var(--ftr-p);
+}
+
+.gradient {
+    background: var(--gradient);
+}
+
+.crd_p {
+    color: var(--card-p);
+}
+
+.wht2 {
+    color: var(--whie2);
+}
+
+.sec3_para {
+    color: var(--sec3-para);
+}
+
+.bg_col {
+    background: var(--bg-col);
+}
+
+.col_white {
+    color: var(--white);
+}
+
+.green_col {
+    color: var(--btn-bg);
+}
+
+.nav_p {
+    color: var(--nav-p);
+}
+
+.nav_bg {
+    background: var(--nav-bg);
+}
+
+.btn_bg {
+    background: var(--btn-bg);
+}
+
+.fs_14 {
+    font-size: var(--fs-sm);
+}
+
+.fs_16 {
+    font-size: var(--fs-md);
+}
+
+.fs_24 {
+    font-size: var(--fs-lg);
+}
+
+.fs_48 {
+    font-size: var(--fs-xl);
+}
+
+.fs_64 {
+    font-size: var(--fs-2xl);
+}
+
+.fw_400 {
+    font-weight: var(--fw-400);
+}
+
+.fw_500 {
+    font-weight: var(--fw-500);
+}
+
+.fw_600 {
+    font-weight: var(--fw-600);
+}
+
+.line-height-21 {
+    line-height: var(--lh-21);
+}
+
+.line-height-24 {
+    line-height: var(--lh-24);
+}
+
+.line-height-26 {
+    line-height: var(--lh-26);
+}
+
+.line-height-33 {
+    line-height: var(--lh-33);
+}
+
+.line-height-52 {
+    line-height: var(--lh-52);
+}
+
+.line-height-57 {
+    line-height: var(--lh-57);
+}
+
+.line-height-61 {
+    line-height: var(--lh-61);
+}
+
+
+
+@media (min-width:992px) {
+    :root {
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-lg: 24px;
+        --fs-xl: 48px;
+        --fs-2xl: 64px;
+
+        --lh-21: 21px;
+        --lh-24: 24px;
+        --lh-26: 26px;
+        --lh-33: 33px;
+        --lh-52: 52px;
+        --lh-57: 57px;
+        --lh-61: 61px;
+    }
+}
