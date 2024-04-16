@@ -19,29 +19,33 @@
             <div class="container mx-auto w_1360">
                 <nav class="d-flex justify-content-between align-items-center z-1 p-22">
                     <div class="d-flex align-items-center gap-1 z-1">
-                        <a href="#"><img src="./assets/images/svg/logo.svg" alt="logo"></a>
+                        <a href="#"><img src="./assets/images/svg/logo.svg" alt="logo" class="logo-width"></a>
                     </div>
-                    <ul class="menulist d-flex gap_32 align-items-center z-3 p-0 m-0">
+                   <div class="d-flex align-items-center gap_40">
+                    <ul class="menulist d-flex gap_32 align-items-center z-2 p-0 m-0">
                         <li><a href="#" class="nav_p ff_Outfit fs_16 fw-normal line-height-24 nav-links link">Home</a>
                         </li>
                         <li><a href="#" class="nav_p ff_Outfit fs_16 fw-normal line-height-24 nav-links link">About</a>
                         </li>
-                        <li><a href="#"
-                                class="nav_p ff_Outfit fs_16 fw-normal line-height-24 nav-links link">Product</a>
+                        <li><a href="#" class="nav_p ff_Outfit fs_16 fw-normal line-height-24 nav-links link">Product</a>
                         </li>
-                        <li><a href="#"
-                                class="nav_p ff_Outfit fs_16 fw-normal line-height-24 nav-links link">Contact</a>
+                        <li><a href="#" class="nav_p ff_Outfit fs_16 fw-normal line-height-24 nav-links link">Contact</a>
                         </li>
+                    
+                    </ul>
+                    <div class="d-flex gap_10 align-items-center z-3">
                         <div class="d-flex gap_10">
                             <img class="cursor_pointer" src="./assets/images/svg/england.svg" alt="country-icon">
                             <img class="cursor_pointer" src="./assets/images/svg/germany.svg" alt="country-icon">
                         </div>
-                    </ul>
-                    <div class="menuicon d-flex flex-column d-block d-lg-none z-3">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
+                        <div class="menuicon d-flex flex-column d-block d-lg-none z-3">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                     </div>
+                   </div>
+                  
                 </nav>
             </div>
         </div>
@@ -96,8 +100,8 @@
                 <div class="col-12 col-md-5 justify-content-start d-flex flex-column align-items-center">
                     <img src="./assets/images/img_3.png" alt="image" class="w-100">
                 </div>
-                <div class="col-12 col-md-7 justify-content-end d-flex flex-column align-items-center z-1">
-                    <h3 class="ff_Outfit fw-normal fs_48 line-height-57 col_white w_527 mb-0">Are You Sure Your <span
+                <div class="col-12 mt-5 mt-md-0 col-md-7 justify-content-end d-flex flex-column align-items-center z-1">
+                    <h3 class="ff_Outfit fw-normal fs_48 line-height-57 pb-3 col_white w_527 mb-0">Are You Sure Your <span
                             class="green_col">Data Is Safe</span>? Neither Are We.</h3>
                     <div class="ps-3 gren_border">
                         <p class="ff_Outfit fw-normal fs_16 line-height-24 w_527 sec3_para mb-0">In today's digital
@@ -130,7 +134,7 @@
                     dolor dui est.</p>
             </div>
             <div class="row pb_140 justify-content-center">
-                <div class="col-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4 z-2">
                     <div class="crd-2 bg_box2 h-100">
                         <div class="d-flex flex-column align-items-center justify-content-center">
                             <div><img src="./assets/images/Icon-1.png" alt="icon"></div>
@@ -142,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 pt-4 pt-sm-0">
+                <div class="col-12 col-sm-6 col-lg-4 pt-4 pt-sm-0 z-2">
                     <div class="crd-2 bg_box2 h-100">
                         <div class="d-flex flex-column align-items-center justify-content-center">
                             <div><img src="./assets/images/Icon-2.png" alt="icon"></div>
@@ -156,7 +160,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 pt-4 pt-lg-0">
+                <div class="col-12 col-sm-6 col-lg-4 pt-4 pt-lg-0 z-2">
                     <div class="crd-2 bg_box2 h-100">
                         <div class="d-flex flex-column align-items-center justify-content-center">
                             <div><img src="./assets/images/Icon-3.png" alt="icon"></div>
@@ -171,10 +175,11 @@
             </div>
         </div>
     </section>
-    <section class="bg_col">
+    <section class="bg_col position-relative">
+        <img class="position-absolute ellps-2 z-1 d-none d-md-block" src="./assets/images/Ellipse-2.png" alt="Ellipse-2">
         <div class="container mx-auto W_1140">
-            <div class="row pt_53 pb_79">
-                <div class="col-12 col-md-7">
+            <div class="row pt_53 pb_79 flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-7 z-2 mt-5 mt-md-0">
                     <h3 class="ff_Outfit fw-normal fs_48 line-height-57 col_white w_527 mb-0 pb-2">Offensive <span
                             class="green_col">Security Experts</span></h3>
                     <div class="ps-3 gren_border">
@@ -193,19 +198,20 @@
                             service portfolio.</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5 z-2">
                     <img src="./assets/images/img_4.png" alt="image" class="w-100">
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg_col">
-        <div class="container mx-auto W_1140">
+    <section class="bg_col position-relative">
+        <img src="./assets/images/service-ellip.png" alt="service-ellip" class="w-100 z-1 position-absolute d-none d-md-block service-ellip">
+        <div class="container py_100 mx-auto W_1140">
             <div class="row">
-                <div class="col-12 col-md-5">
-                    <img src="./assets/images/img_5.png" alt="image" class="w-100">
+                <div class="col-12 col-md-6 z-2">
+                    <img src="./assets/images/img_5.png" alt="image" class="w-100 w_476">
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-md-6 z-2 mt-5 mt-md-0">
                     <h3 class="ff_Outfit fw-normal fs_48 line-height-57 col_white mb-0 pb-2">Further <span
                             class="green_col">Services</span></h3>
                     <p class="ff_Outfit fw-normal fs_16 line-height-24 w_527 sec3_para mb-0">Neben den oben genannten
@@ -235,10 +241,14 @@
                 </div>
             </div>
     </section>
-    <section class="bg_col">
+    <section class="bg_col position-relative">
+        <div class="globe-left position-absolute z-1 d-none d-md-block">
+        <img src="./assets/images/globe-left.png" alt="globe-left" class="w-100 ">
+        </div>
+        <img src="./assets/images/globe-svg.png" alt="globe-svg" class="w-100 globe-svg z-0 position-absolute">
         <div class="container mx-auto W_1140">
             <div class="d-flex flex-column align-items-center justify-content-center pt_80">
-                <h3 class="ff_Outfit fw-normal fs_48 line-height-57 col_white mb-0 w_725 text-center">Decentralized
+                <h3 class="ff_Outfit fw-normal fs_48 line-height-57 col_white mb-0 w_725 text-center z-2">Decentralized
                     Infrastructure, <span class="green_col">Globally Distributed.</span></h3>
             </div>
             <div class="pt_60 pb_171">
@@ -246,23 +256,26 @@
             </div>
         </div>
     </section>
-    <section class="bg_col">
+    <section class="bg_col position-relative">
+        <img src="./assets/images/last_right.png" alt="last_right" class="w-100 position-absolute last_right z-0">
         <div class="container mx-auto W_1045 pb_140">
-            <div class="input_box bg_input ">
+            <div class="input_box bg_input z-2">
                 <div class="d-flex flex-column align-items-center justify-content-center p-64">
-                    <h3 class="ff_Outfit fw-normal fs_48 line-height-57 col_white mb-0 w_725 text-center">Get into <span
+                    <h3 class="ff_Outfit fw-normal fs_48 line-height-57 col_white mb-0 w_725 text-center z-2">Get into <span
                             class="green_col">touch</span></h3>
-                    <p class="mb-0 ff_Outfit fw-normal pb_32 fs_16 line-height-24 text-center w_628 crd_p pt-2">Defend your
+                    <p class="mb-0 ff_Outfit fw-normal pb_32 fs_16 line-height-24 text-center w_628 crd_p pt-2 z-2">Defend your
                         business against online threats while leveraging our IT security expertise and
                         experience for comprehensive
                         protection and peace of mind.</p>
                 <div class="d-flex flex-column gap-3 w-100 align-items-center z-2">
                     <form action="action_page.php" class="formdiv d-flex align-items-center justify-content-between w-100">
                         <input type="email" id="empyt" placeholder="Enter your email address" style="border: none; outline: none;"
-                            class="bg-transparent w-100 col_black col_white fs_md lh_24 fw_400 ff_Outfit">
+                            class="bg-transparent pe-2 w-100 col_black col_white fs_md lh_24 fw_400 ff_Outfit">
                         <button class="btn_bg d-none d-sm-block  fs_md fw_500 ff_Outfit lh_24 btn_1 text-nowrap">Sign
                             up</button>
                     </form>
+                    <button class="btn_bg d-sm-none  fs_md fw_500 ff_Outfit lh_24 btn_1 text-nowrap">Sign
+                        up</button>
                 </div>
                 </div>
             </div>
@@ -272,7 +285,7 @@
         <img src="./assets/images/Ellipse_footer.png" class="w-100 h-100 position-absolute" alt="ellipse">
         <div class="container mx-auto W_1140">
             <div class="row pt-5">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5 z-2">
                     <a href="#"> <img src="./assets/images/svg/logo.svg" alt="logo"></a>
                     <h4 class="mb-0 ff_Outfit fw-normal fs_16 line-height-24 nav_p w_373 pt-3">Lorem Ipsum is simply
                         dummy text of the printing and typesettin industry.</h4>
@@ -281,7 +294,7 @@
                 <div class="col-12 col-md-7">
                     <div class="row">
                         <div
-                            class="col-12 col-sm-6 col-lg-4 d-flex justify-content-start justify-content-lg-center pt-4 pt-md-0">
+                            class="col-12 col-sm-6 col-lg-4 d-flex justify-content-start justify-content-lg-center pt-4 pt-md-0 z-2">
                             <div class="d-flex flex-column">
                                 <p class="mb-0 ff_Outfit fw_500 fs_16 line-height-24 text-white pb_18">Quick Links</p>
                                 <ul class="d-flex flex-column gap_10 p-0 m-0">
@@ -297,7 +310,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-4 mt-200 pt-4 pt-md-0">
+                        <div class="col-12 col-sm-6 col-lg-4 mt-200 pt-4 pt-md-0 z-2">
                             <p class="mb-0 ff_Outfit fw_500 fs_16 line-height-24 text-white pb_18">Links</p>
                             <ul class="d-flex flex-column gap_10 p-0 m-0">
                                 <li><a href="#" class="ff_Outfit fw-normal fs_16 line-height-24 ftr_para">Privacy
@@ -308,7 +321,7 @@
                             </ul>
                         </div>
                         <div
-                            class="col-12 col-sm-6 col-lg-4 d-flex justify-content-start justify-content-lg-center pt-4 pt-lg-0">
+                            class="col-12 col-sm-6 col-lg-4 d-flex justify-content-start justify-content-lg-center pt-4 pt-lg-0 z-2">
                             <div class="d-flex flex-column">
                                 <p class="mb-0 ff_Outfit fw_500 fs_16 line-height-24 text-white pb_18">Information</p>
                                 <ul class="d-flex flex-column gap_10 p-0 m-0">
