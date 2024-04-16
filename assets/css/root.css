@@ -27,12 +27,15 @@
     --ftr-p: #E7E8E7;
     --line: #6E706D;
     --last-word: #CFD0CF;
+    --bodr-col: #BAFF0066;
+    --bdr2:#FFFFFF29;
+
     --fw-400: 400;
     --fw-500: 500;
     --fw-600: 600;
 }
 
-.col_black{
+.col_black {
     color: var(--black);
 }
 

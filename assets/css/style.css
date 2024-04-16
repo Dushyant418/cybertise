@@ -96,7 +96,7 @@
     max-width: 518px;
     width: 100%;
     border-radius: 48px;
-    border: 1px solid #BAFF0066;
+    border: 1px solid var(--bodr-col);
 }
 
 .bg_input {
@@ -234,7 +234,7 @@
 }
 
 .gren_border {
-    border-left: 2px solid #BAFF0099
+    border-left: 2px solid var(--bodr-col);
 }
 
 .ellps-2 {
@@ -248,7 +248,7 @@
 }
 
 .sec2_box {
-    border: 1px solid #FFFFFF29;
+    border: 1px solid var(--bdr2);
     max-width: 1036px !important;
     border-radius: 24px;
     border: 1px 0px 0px 0px;
@@ -257,14 +257,14 @@
 }
 
 .crd-2 {
-    border: 1px solid #FFFFFF29;
+    border: 1px solid var(--bdr2);
     border-radius: 24px;
     padding: 40px 22px 64px 18px;
     transition: all linear 200ms;
 }
 
 .crd-2:hover {
-    border: 1px solid #BAFF00
+    border: 1px solid var(--btn-bg);
 }
 
 .scale_hover:hover {
@@ -276,7 +276,7 @@
 }
 
 .input_box {
-    border: 1px solid #FFFFFF29;
+    border: 1px solid var(--bdr2);
     border-radius: 24px;
     padding-left: 12px;
     padding-right: 12px;
@@ -309,7 +309,7 @@
     width: 0;
     height: 1px;
     transition: all 400ms linear;
-    background: white;
+    background: var(--white);
     bottom: -2px;
     left: 0;
 }
@@ -390,7 +390,7 @@
         justify-content: center;
         right: -100%;
         z-index: 50 !important;
-        background: black;
+        background: var(--black);
         transition: all 300ms linear;
     }
 
