@@ -247,6 +247,10 @@
     padding-bottom: 50px;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 .sec2_box {
     border: 1px solid var(--bdr2);
     max-width: 1036px !important;
